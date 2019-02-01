@@ -1,0 +1,343 @@
+header {
+	height: 90%;
+}
+
+body, html {
+	height: 100%;
+	background-image: url("img/background.jpeg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-top {
+	max-width: 960px;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("img/companylogoBG.jpg");
+
+    height: 20%;
+    width: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-top h1 {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+	font: 80px berlin sans fb, sans-serif;
+}
+
+
+.navigation-bar {
+	max-width: 960px;
+	height: 20px;
+    margin: auto;
+	width: 50%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.1px;
+}
+.navigation-bar a {
+	color: white;
+}
+.section1 {
+	max-width: 960px;
+    margin : auto;
+	height: 216px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+}
+.section1 h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+    position: relative;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    font: 35pt arial, sans-serif;
+}
+
+.section2 {
+	max-width: 960px;
+    margin : auto;
+	height: 216px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+	top: 438px;
+}
+
+.section2 h2 {
+	margin-top: 0;
+	margin-bottom: 50;
+	text-align: center;
+    position: relative;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: white;
+    font: 35pt arial, sans-serif;
+}
+
+.section3 {
+	max-width: 960px;
+    margin : auto;
+	height: 216px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+	top: 846px;
+}
+
+.section3 h3 {
+	margin-top: 0;
+	margin-bottom: 50;
+	text-align: center;
+    position: relative;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: white;
+    font: 35pt arial, sans-serif;
+}
+
+.section4 {
+	max-width: 960px;
+    margin : auto;
+	height: 216px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+	top: 1254px;
+}
+
+.section4 h4 {
+	margin-top: 0;
+	margin-bottom: 50;
+	text-align: center;
+    position: relative;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: white;
+    font: 35pt arial, sans-serif;
+}
+
+.section5 {
+	max-width: 960px;
+    margin : auto;
+	height: 80px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+}
+.section5 h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font: 63pt arial, sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	max-width: 960px;
+	margin : auto;
+	height: 870px;
+	width: 50%;
+	position: relative;
+	background-color: white;
+}
+
+.grid-item  figure {
+	width: 295px;
+	height: 200px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	position: relative;
+	
+}
+
+
+.article1 form	{
+	max-width: 960px;
+	margin: auto;
+	height: 460px;
+	width: 50%;
+	background-color: #f2f2f2;
+	position: relative;
+	top: -20px;
+}
+
+.article1 select {
+	max-width: 960px;
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+
+.section10 input {
+	max-width: 960px;
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+
+.section11 input {
+	max-width: 960px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	width: 89%;
+	position: relative;
+	background-color: #2699fb;
+	color: white;
+	text-align: center;
+	height: 40px;
+	font: 25pt arial, sans-serif;
+}
+
+.article1 textarea {
+	max-width: 960px;
+	margin: auto;
+	width: 50%;
+	position: relative;
+}
+
+
+.article1 p {
+	margin-left: 20px;
+	margin-top: 20px;
+	top: 10px;
+}
+
+.article1 fieldset {
+	margin-left: 50px;
+	margin-right:50px;
+}
+
+.section6 footer {
+	max-width: 960px;
+	margin: auto;
+	height: 20px;
+	width: 50%;
+	background-color: black;
+	position: relative;
+	top: 1710px;
+	color: white;
+	text-align: center;
+	font: 15pt arial, sans-serif;
+}
+
+.section7 footer {
+	max-width: 960px;
+	margin: auto;
+	height: 20px;
+	width: 50%;
+	background-color: black;
+	position: relative;
+	color: white;
+	text-align: center;
+	top: -20px;
+	font: 15pt arial, sans-serif;
+}
+
+.section8 footer {
+	max-width: 960px;
+	margin: auto;
+	height: 20px;
+	width: 50%;
+	background-color: black;
+	position: relative;
+	color: white;
+	text-align: center;
+	top: -40px;
+	font: 15pt arial, sans-serif;
+}
+
+.section1 figure {
+	max-width: 960px;
+	height: 580px;
+	margin: 36px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section2 figure {
+	max-width: 960px;
+	height: 580px;
+	margin: 36px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section3 figure {
+	max-width: 960px;
+	height: 580px;
+	margin: 36px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section4 figure {
+	max-width: 960px;
+	height: 580px;
+	margin: 36px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section9 {
+	max-width: 960px;
+    margin: auto;
+	margin-bottom: 0px;
+	height: 80px;
+	width: 50%;
+	background-color: #2699fb;
+	position: relative;
+}
+
+.section9 h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+}
+
+
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
